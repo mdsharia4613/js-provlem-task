@@ -30,6 +30,21 @@ else{
 
 // problem 3
 
+const a = 50;
+const b = 20;
+if(a > b){
+    console.log('largest number', a)
+}
+else{
+    console.log('largest number', b)
+}
+
+// ternary
+const values =(a>b)? a : b;
+console.log('largest', values);
+
+// problem-4
+// largest number
 const x = 20;
 const y = 30;
 const z = 10;
