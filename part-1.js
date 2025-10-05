@@ -60,7 +60,29 @@ else{
     
 }
 
-// ternary
+// prpblem -5
+
+const year = 2020;
+
+if(year % 4 === 0 && year % 100 !==0 || year % 400 === 0){
+    console.log('leap year')
+}
+else{
+    console.log('not leap year')
+}
+
+// problem -6
+
+const age = 20;
+
+if(age >= 18){
+    console.log('Eligble')
+}
+else{
+    console.log('not eligibile')
+}
+
+// problem-7
 
 
 
