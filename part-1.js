@@ -8,3 +8,44 @@ if(number % 2 === 0){
 else{
     console.log('odd number', number)
 }
+
+// ternary opprator
+
+const result = (number % 2 === 0) ? 'even':'odd';
+console.log(result, number)
+
+// peovlem 2
+
+const value = -2;
+
+if(value > 0){
+    console.log('positive', value);
+}
+else if(value < 0){
+    console.log('Negative', value);
+}
+else{
+    console.log('Zero', value);
+}
+
+// problem 3
+
+const x = 20;
+const y = 30;
+const z = 10;
+
+if(x >  y && x > z){
+    console.log('largest number', x)
+}
+else if(y > x && y > z){
+    console.log('largest number', y)
+}
+else{
+    console.log('largest number', z)
+    
+}
+
+// ternary
+
+
+
