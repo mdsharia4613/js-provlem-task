@@ -76,13 +76,74 @@ else{
 const age = 20;
 
 if(age >= 18){
-    console.log('Eligble')
+    console.log('Eligible')
 }
 else{
     console.log('not eligibile')
 }
 
+// ternary operator
+ const ages = (age >= 18)? 'eligible': 'not eligible'
+ console.log(ages)
 // problem-7
 
+const d = 55;
+if(d % 5 === 0 && d % 11 === 0){
+    console.log('divisible')
+}
+else{
+    console.log('not divisible')
+}
 
+// problem -8
+
+const grade = 49;
+if(grade > 80){
+    console.log('A+');
+}
+else if(grade > 70){
+    console.log('B');
+}
+else if(grade > 60){
+    console.log('C');
+}
+else if(grade >= 50){
+    console.log('D');
+}
+else{
+    console.log('F');
+}
+
+// problem 9
+
+const char = 'a';
+
+if(char >= 'A' && char <= 'Z'){
+    console.log('uppercase', char);
+}
+else if( char >= 'a' && char <= 'z'){
+    console.log('lowercase', char)
+}
+else{
+    console.log('no alfabet')
+}
+
+//ternary operator
+const chars = (char >= 'A' && char <= 'Z')? 'uppercase': 'lowercase';
+console.log(chars);
+
+// problem 10
+
+const vowels = 's';
+if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u' ){
+    console.log('vowel');
+}
+else{
+    console.log("consonate")
+}
+// provlem 11
+// ternary operator
+ const multiple = 22;
+ const s = (multiple % 3 === 0 || multiple % 7 === 0)? true: false;
+ console.log(s)
 
